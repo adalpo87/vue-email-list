@@ -21,7 +21,7 @@
                     if(this.emails.length < 10){
                         this.callApi(url)
                     }
-                    console.log(emails)
+                    console.log(this.emails)
                 })
                 .catch((err)=>{
                     console.log(err)
